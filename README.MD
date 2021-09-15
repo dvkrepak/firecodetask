@@ -68,7 +68,7 @@ python manage.py loaddata shop/fixtures/storedata.json
 
 Project will be available at **http://127.0.0.1:8000/**
 
-## **Views:**
+## **Views**
 #### **localhost/city/** - all cities from the db
 #### **localhost/city_slug/street** - all street in a current city
 #### **localhost/shop/** - create new store
