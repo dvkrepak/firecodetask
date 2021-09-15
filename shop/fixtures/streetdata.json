@@ -3,36 +3,9 @@
         "model": "shop.street",
         "pk": 1,
         "fields": {
-            "name": "Вознесенский переулок",
-            "slug": "voznesensky_lane",
+            "name": "Луговая",
+            "slug": "lugovaya",
             "city": 1
-        }
-    },
-    {   
-        "model": "shop.street",
-        "pk": 2,
-        "fields": {
-            "name": "Площадь Ленина",
-            "slug": "lenin_square",
-            "city": 2
-        }
-    },
-    {   
-        "model": "shop.street",
-        "pk": 3,
-        "fields": {
-            "name": "Пушкина",
-            "slug": "pushkina",
-            "city": 3
-        }
-    },
-    {   
-        "model": "shop.street",
-        "pk": 4,
-        "fields": {
-            "name": "Проспект Мира",
-            "slug": "prospekt_mira",
-            "city": 5
         }
     }
 ]

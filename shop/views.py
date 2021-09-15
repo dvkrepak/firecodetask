@@ -1,26 +1,33 @@
 from rest_framework import generics, viewsets, status
+from django.core.exceptions import BadRequest, ObjectDoesNotExist
 from rest_framework.response import Response
-from django_filters.rest_framework import DjangoFilterBackend
+
 from .models import Store, City, Street
 from .filters import StoreFilter
 from .serializers import CitySerializer, StoreCreateSerializer, StoreSerializer, StreetSerializer
 
 
 class CityApiView(generics.ListAPIView):
-    """Get information about all cities"""
+    """Get information about all cities localhost/city/"""
     serializer_class = CitySerializer
-    queryset = City.objects.all()
+    try: 
+        queryset = City.objects.all()
+    except ObjectDoesNotExist:
+        raise BadRequest("Invalid Request. No cities found in the DB")
 
 
 class StreetApiView(generics.ListAPIView):
-    """Get information about streets in a certain city"""
+    """Get information about streets in a certain city localhost/<city_slug>/street/"""
     serializer_class = StreetSerializer
 
     def get_queryset(self):
-        current_city_slug = self.kwargs.get('slug')
-        current_city_name = City.objects.get(slug=current_city_slug)
-        return Street.objects.filter(city=current_city_name)
-    
+        try:
+            current_city_slug = self.kwargs.get('slug')
+            current_city_name = City.objects.get(slug=current_city_slug)
+            return Street.objects.filter(city=current_city_name)
+        except ObjectDoesNotExist:
+            raise BadRequest(f"Invalid Request. I can't find this city in the DB or there are no cities in it")
+
 
 class StoreApiView(viewsets.ModelViewSet):
     """GET/POST request handler for localhost/shop/"""

@@ -4,88 +4,10 @@
         "pk": 1,
         "fields": {
             "name": "ВкусВилл",
-            "slug": "vkusvill",
+            "slug": "vkusvill_lugovaya",
             "number": 45,
             "opening_time": "08:00:00.000",
             "closing_time": "20:00:00.000",
-            "city": 2,
-            "street": 1
-        }
-    },
-        {
-        "model": "shop.store",
-        "pk": 2,
-        "fields": {
-            "name": "ТЦ Мега",
-            "slug": "center-mall-mega",
-            "number": 141,
-            "opening_time": "10:00:00.000",
-            "closing_time": "21:00:00.000",
-            "city": 3,
-            "street": 4
-        }
-    },
-        {
-        "model": "shop.store",
-        "pk": 3,
-        "fields": {
-            "name": "ТЦ Проспект",
-            "slug": "center-mall-prospekt",
-            "number": 50,
-            "opening_time": "10:00:00.000",
-            "closing_time": "22:00:00.000",
-            "city": 3,
-            "street": 4
-        }
-    },
-    {
-        "model": "shop.store",
-        "pk": 4,
-        "fields": {
-            "name": "Мирра",
-            "slug": "mirra",
-            "number": 11,
-            "opening_time": "11:00:00.000",
-            "closing_time": "19:00:00.000",
-            "city": 2,
-            "street": 3
-        }
-    },
-    {
-        "model": "shop.store",
-        "pk": 5,
-        "fields": {
-            "name": "Сильвер Вэй",
-            "slug": "silver-way",
-            "number": 6,
-            "opening_time": "11:00:00.000",
-            "closing_time": "21:00:00.000",
-            "city": 2,
-            "street": 3
-        }
-    },
-    {
-        "model": "shop.store",
-        "pk": 6,
-        "fields": {
-            "name": "Декор",
-            "slug": "decor",
-            "number": 1,
-            "opening_time": "08:00:00.000",
-            "closing_time": "22:30:00.000",
-            "city": 4,
-            "street": 2
-        }
-    },
-    {
-        "model": "shop.store",
-        "pk": 7,
-        "fields": {
-            "name": "Неправильный магазин",
-            "slug": "wrong_store",
-            "number": 3,
-            "opening_time": "23:59:00.000",
-            "closing_time": "22:00:00.000",
             "city": 1,
             "street": 1
         }

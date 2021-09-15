@@ -1,5 +1,6 @@
 from rest_framework import filters
-from django.utils.datetime_safe import  datetime
+from django.core.exceptions import BadRequest, ObjectDoesNotExist
+from django.utils.datetime_safe import datetime
 from django.db.models import Q
 from .models import City
 
@@ -17,7 +18,12 @@ class StoreFilter(filters.BaseFilterBackend):
             all_params.add(current_param, Q.AND)
 
         if city:
-            city = City.objects.get(id=city)
+            try:
+                city = City.objects.get(id=city)
+            except ObjectDoesNotExist:
+                raise BadRequest('Bad Request. No city found in the DB')
+            except ValueError:
+                raise BadRequest('Bad Request. Field expected a number but gut string or slug')
             current_param = Q(city=city)
             all_params.add(current_param, Q.AND)
     

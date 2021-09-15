@@ -9,7 +9,6 @@ class Store(models.Model):
     number = models.IntegerField(verbose_name='Number')
     opening_time = models.TimeField(verbose_name='Opening time')
     closing_time = models.TimeField(verbose_name='Closing time')
-    
 
     def __str__(self):
         return self.name

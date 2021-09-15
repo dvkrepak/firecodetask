@@ -3,41 +3,9 @@
         "model": "shop.city",
         "pk": 1,
         "fields": {
-            "name": "Москва",
-            "slug": "moscow"
+            "name": "Владивосток",
+            "slug": "vladivostok"
         }
-    }, 
-    {
-        "model": "shop.city",
-        "pk": 2,
-        "fields": {
-            "name": "Санкт-Петербург",
-            "slug": "saint-petersburg"
-        }
-    },
-    {
-        "model": "shop.city",
-        "pk": 3,
-        "fields": {
-            "name": "Казань",
-            "slug": "kazan"
-        }
-    }, 
-    {
-        "model": "shop.city",
-        "pk": 4,
-        "fields": {
-            "name": "Казань",
-            "slug": "kazan"
-        }
-    }, 
-    {
-        "model": "shop.city",
-        "pk": 5,
-        "fields": {
-            "name": "Калининград",
-            "slug": "kaliningrad"
-        }
-    } 
+    }
     
 ]
