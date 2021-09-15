@@ -3,8 +3,32 @@
         "model": "shop.city",
         "pk": 1,
         "fields": {
-            "name": "Владивосток",
-            "slug": "vladivostok"
+            "name": "Москва",
+            "slug": "moscow"
+        }
+    },
+    {
+        "model": "shop.city",
+        "pk": 2,
+        "fields": {
+            "name": "Казань",
+            "slug": "kazan"
+        }
+    },
+    {
+        "model": "shop.city",
+        "pk": 3,
+        "fields": {
+            "name": "Сочи",
+            "slug": "sochi"
+        }
+    },
+    {
+        "model": "shop.city",
+        "pk": 4,
+        "fields": {
+            "name": "Екатеринбург",
+            "slug": "ekaterinburg"
         }
     }
     

@@ -3,13 +3,311 @@
         "model": "shop.store",
         "pk": 1,
         "fields": {
-            "name": "ВкусВилл",
-            "slug": "vkusvill_lugovaya",
-            "number": 45,
-            "opening_time": "08:00:00.000",
-            "closing_time": "20:00:00.000",
+            "name": "Модный Сезон",
+            "slug": "modniy-sezon-okhortnyi-ryad",
+            "number": 2,
+            "opening_time": "09:00:00.000",
+            "closing_time": "22:00:00.000",
             "city": 1,
             "street": 1
+        }
+    },
+    {
+        "model": "shop.store",
+        "pk": 2,
+        "fields": {
+            "name": "Перекресток",
+            "slug": "perekrestok-okhotnyi-ryad",
+            "number": 2,
+            "opening_time": "10:00:00.000",
+            "closing_time": "23:00:00.000",
+            "city": 1,
+            "street": 1
+        }
+    },
+    {
+        "model": "shop.store",
+        "pk": 3,
+        "fields": {
+            "name": "Перекресток",
+            "slug": "perekrestok-nikolskaya",
+            "number": 25,
+            "opening_time": "08:00:00.000",
+            "closing_time": "23:00:00.000",
+            "city": 1,
+            "street": 2
+        }
+    },
+    {
+        "model": "shop.store",
+        "pk": 4,
+        "fields": {
+            "name": "Эконика",
+            "slug": "ekonika-nikolskaya",
+            "number": 7,
+            "opening_time": "10:00:00.000",
+            "closing_time": "21:00:00.000",
+            "city": 1,
+            "street": 2
+        }
+    },
+    {
+        "model": "shop.store",
+        "pk": 5,
+        "fields": {
+            "name": "Фанбокс",
+            "slug": "fanboks-mokhovaya",
+            "number": 54,
+            "opening_time": "11:00:00.000",
+            "closing_time": "22:00:00.000",
+            "city": 1,
+            "street": 3
+        }
+    },
+    {
+        "model": "shop.store",
+        "pk": 6,
+        "fields": {
+            "name": "Для Техника.РФ",
+            "slug": "dlya-tekhnika-rf-mokhovaya",
+            "number": 318,
+            "opening_time": "09:30:00.000",
+            "closing_time": "21:30:00.000",
+            "city": 1,
+            "street": 3
+        }
+    },
+    {
+        "model": "shop.store",
+        "pk": 7,
+        "fields": {
+            "name": "Казанский Арбат",
+            "slug": "kazanskiy-arbat-baumana",
+            "number": 8,
+            "opening_time": "08:30:00.000",
+            "closing_time": "17:00:00.000",
+            "city": 2,
+            "street": 4
+        }
+    },
+    {
+        "model": "shop.store",
+        "pk": 8,
+        "fields": {
+            "name": "ХикаРу",
+            "slug": "hikaru-baumana",
+            "number": 82,
+            "opening_time": "10:00:00.000",
+            "closing_time": "22:00:00.000",
+            "city": 2,
+            "street": 4
+        }
+    },
+    {
+        "model": "shop.store",
+        "pk": 9,
+        "fields": {
+            "name": "Сююмбике",
+            "slug": "suumbike-kremlevskaya",
+            "number": 2,
+            "opening_time": "09:00:00.000",
+            "closing_time": "19:00:00.000",
+            "city": 2,
+            "street": 5
+        }
+    },
+    {
+        "model": "shop.store",
+        "pk": 10,
+        "fields": {
+            "name": "Бэхет",
+            "slug": "bekhet-kremlevskaya",
+            "number": 45,
+            "opening_time": "09:00:00.000",
+            "closing_time": "19:00:00.000",
+            "city": 2,
+            "street": 5
+        }
+    },
+    {
+        "model": "shop.store",
+        "pk": 11,
+        "fields": {
+            "name": "ЦУМ",
+            "slug": "tsum-moskovskaya",
+            "number": 2,
+            "opening_time": "09:00:00.000",
+            "closing_time": "21:00:00.000",
+            "city": 2,
+            "street": 6
+        }
+    },
+    {
+        "model": "shop.store",
+        "pk": 12,
+        "fields": {
+            "name": "Белвест",
+            "slug": "belwest-moskovskaya",
+            "number": 44,
+            "opening_time": "09:00:00.000",
+            "closing_time": "19:00:00.000",
+            "city": 2,
+            "street": 6
+        }
+    },
+    {
+        "model": "shop.store",
+        "pk": 13,
+        "fields": {
+            "name": "Сочи-Нэилс",
+            "slug": "sochi-nails-ostrovskogo",
+            "number": 1,
+            "opening_time": "10:00:00.000",
+            "closing_time": "20:00:00.000",
+            "city": 3,
+            "street": 7
+        }
+    },
+    {
+        "model": "shop.store",
+        "pk": 14,
+        "fields": {
+            "name": "Сандал",
+            "slug": "sandal-ostrovskogo",
+            "number": 45,
+            "opening_time": "10:00:00.000",
+            "closing_time": "20:00:00.000",
+            "city": 3,
+            "street": 7
+        }
+    },
+    {
+        "model": "shop.store",
+        "pk": 15,
+        "fields": {
+            "name": "Продукты",
+            "slug": "produkty-ordzhonikidze",
+            "number": 6,
+            "opening_time": "00:00:00.000",
+            "closing_time": "23:59:00.000",
+            "city": 3,
+            "street": 8
+        }
+    },
+    {
+        "model": "shop.store",
+        "pk": 16,
+        "fields": {
+            "name": "Конфетти",
+            "slug": "konfetti-ordzhonikidze",
+            "number": 45,
+            "opening_time": "12:00:00.000",
+            "closing_time": "22:00:00.000",
+            "city": 3,
+            "street": 8
+        }
+    },
+    {
+        "model": "shop.store",
+        "pk": 17,
+        "fields": {
+            "name": "Шапландия",
+            "slug": "shaplandiya-primorskaya",
+            "number": 3,
+            "opening_time": "10:00:00.000",
+            "closing_time": "19:00:00.000",
+            "city": 3,
+            "street": 9
+        }
+    },{
+        "model": "shop.store",
+        "pk": 18,
+        "fields": {
+            "name": "ЧудеСочи",
+            "slug": "chudesochi-primorskaya",
+            "number": 12,
+            "opening_time": "08:00:00.000",
+            "closing_time": "20:00:00.000",
+            "city": 3,
+            "street": 9
+        }
+    },
+    {
+        "model": "shop.store",
+        "pk": 19,
+        "fields": {
+            "name": "АТ-Сторе",
+            "slug": "at-store-vainera",
+            "number": 21,
+            "opening_time": "10:00:00.000",
+            "closing_time": "20:00:00.000",
+            "city": 4,
+            "street": 10
+        }
+    },
+    {
+        "model": "shop.store",
+        "pk": 20,
+        "fields": {
+            "name": "ТЦ Успенский",
+            "slug": "center-mall-uspenskiy-vainera",
+            "number": 10,
+            "opening_time": "10:00:00.000",
+            "closing_time": "22:00:00.000",
+            "city": 4,
+            "street": 10
+        }
+    },
+    {
+        "model": "shop.store",
+        "pk": 21,
+        "fields": {
+            "name": "СилаВоли",
+            "slug": "silavoli-tolmacheva",
+            "number": 22,
+            "opening_time": "10:00:00.000",
+            "closing_time": "21:00:00.000",
+            "city": 4,
+            "street": 11
+        }
+    },
+    {
+        "model": "shop.store",
+        "pk": 22,
+        "fields": {
+            "name": "КайтТим",
+            "slug": "kiteteam-tolmacheva",
+            "number": 2,
+            "opening_time": "08:00:00.000",
+            "closing_time": "21:00:00.000",
+            "city": 4,
+            "street": 11
+        }
+    },
+    {
+        "model": "shop.store",
+        "pk": 23,
+        "fields": {
+            "name": "Бэбимарт",
+            "slug": "babymart-lunacharskogo",
+            "number": 49,
+            "opening_time": "10:00:00.000",
+            "closing_time": "20:00:00.000",
+            "city": 4,
+            "street": 12
+        }
+    },
+    {
+        "model": "shop.store",
+        "pk": 24,
+        "fields": {
+            "name": "7-Я",
+            "slug": "semya-lunacharskogo",
+            "number": 76,
+            "opening_time": "10:00:00.000",
+            "closing_time": "20:00:00.000",
+            "city": 4,
+            "street": 12
         }
     }
 ]
